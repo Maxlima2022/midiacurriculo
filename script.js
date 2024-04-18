@@ -1,6 +1,6 @@
 // Dados para o gráfico de porcentagem de idiomas (exemplo)
 const languageData = {
-    labels: ['Inglês', 'Espanhol', 'Italiano',],
+    labels: ['Português', 'Espanhol', 'Italiano',],
     datasets: [{
         label: 'Porcentagem de Idiomas',
         backgroundColor: [
@@ -18,7 +18,7 @@ const languageData = {
             'rgba(153, 102, 255, 1)'
         ],
         borderWidth: 1,
-        data: [1, 25, 15,] // Porcentagens dos idiomas
+        data: [100, 25, 15,] // Porcentagens dos idiomas
     }]
 };
 
