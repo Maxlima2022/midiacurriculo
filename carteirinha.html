@@ -5,9 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEU CURRICULO</title>
     <link rel="stylesheet" href="stylis.css">
+    <style>
+        /* Estilizando o link de impressão */
+        .print-link {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Estilizando o link de impressão quando passa o mouse por cima */
+        .print-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>  <header>
     <h1>Meu Currículo</h1>
+    <a href="#" onclick="window.print();" class="print-link">Imprimir</a>
+    <!-- O conteúdo da sua página vem aqui -->
 </header>
     <div class="container">
       
