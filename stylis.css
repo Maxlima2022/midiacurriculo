@@ -90,3 +90,15 @@ footer {
     width: 2px; /* Ajuste o tamanho conforme necessário */
     height: auto;
 }
+
+/* Estilizando os links */
+a {
+    color: rgb(241, 237, 237); /* Altera a cor do texto do link para preto */
+    text-decoration: none; /* Remove o sublinhado */
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+}
+
+/* Estilizando o link quando passa o mouse por cima */
+a:hover {
+    color: darkgray; /* Altera a cor do texto do link quando o mouse passa por cima */
+}
