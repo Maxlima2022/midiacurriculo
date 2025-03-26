@@ -1,145 +1,141 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MEU CURRICULO</title>
-    <link rel="stylesheet" href="stylis.css">
-  
+    <title>Currículo - Jackxwell Lima da Silva</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #c6cac9;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 900px;
+            background: rgb(179, 162, 162);
+            padding: 30px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .header {
+            text-align: center;
+            background: linear-gradient(135deg, #25252c, #9b9b9c);
+            color: white;
+            padding: 40px 0;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .profile-img {
+            width: 120px;
+            border-radius: 50%;
+            margin-top: 15px;
+            border: 3px solid white;
+        }
+
+        /* Nova imagem centralizada */
+        .additional-image {
+            display: block;
+            margin: 30px auto;
+            width: 80%; /* Ajuste a largura conforme necessário */
+            border-radius: 10px;
+        }
+
+        .contact a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        .sections-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .section {
+            padding: 20px;
+            background: #f9f9f9;
+            border-left: 5px solid #2a5d88;
+            border-radius: 8px;
+        }
+
+        .section h2 {
+            color: #2a5d88;
+            margin-bottom: 10px;
+        }
+
+        .section p, .section ul {
+            margin: 10px 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        /* Ajuste para garantir que o layout fique bem distribuído */
+        .contact, .experiencia, .formacao, .habilidades, .idiomas, .cursos {
+            display: block;
+        }
+
+        @media (min-width: 768px) {
+            .sections-wrapper {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .left-section, .right-section {
+                flex: 1 1 45%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            .header h1, .header p {
+                font-size: 20px;
+            }
+        }
+    </style>
 </head>
-<body>  <header>
-    <h1>Meu Currículo</h1>
-    <a href="#" onclick="window.print();" class="print-link">Imprimir</a>
-    <!-- O conteúdo da sua página vem aqui -->
-</header>
+<body>
     <div class="container">
-      
-        <main>
-            <section class="profile">
-                <center><img src="foto.png" alt="Minha Foto"></center>
-                <h2> JACKXWELL LIMA DA SILVA</h2>
-                <p>AGENTE ADMINISTRATIVO</p>
-                <p>T E C N O L O G I A <p> D A  <p>I N F O R M A Ç Ã O</p>
-                <div class="container">
-                <a href="https://api.whatsapp.com/send?phone=S5511959834631&text=Ol%C3%A1%2C%20estou%20interessado%20em%20entrar%20em%20contato.%20">
-                     <h1>(11) 95983-4631</h1></a></div>
-                 <p>Clique no email para enviar.</p> <a href="mailto:jlsdesing2022@gmail.com?subject=Assunto do Email"> <p>JLSDESING2022@GMAIL.COM </a>
-               
-            </section>
-            <section class="bio">
-               <h2>PERFIL PROFISSIONAL</h2>
-                <h4>Profissional altamente organizado e orientado para resultados, com ampla
-                    experiência em funções administrativas. Possuo habilidades sólidas em
-                    gerenciamento de tempo,resolução de problemas e comunicação eficaz. Sou
-                    capaz de trabalhar de forma independente e em equipe, adaptando-me
-                    facilmente a novos ambientes e enfrentando desafios com determinação e
-                    criatividade.
-                    </4>
-            </section>
-            
-            <section class="experience">
-                <h2>EXPERIÊNCIA<p> PROFISSIONAL</h2>
-                <h2>Administração Residencial - Particular.</h2><p>
-                    <h4>Supervisionar as operações diárias de propriedades residenciais, incluindo
-                        manutenção, limpeza e segurança.
-                        Capacidade de fornecer um excelente atendimento ao morador,
-                        respondendo prontamente às suas necessidades e preocupaçõess</p>
-                        <p>Habilidade em gerenciar orçamentos, pagamentos de contas e outras
-                            transações financeiras relacionadas à administração residencial</h4>
-                            <h2>Haganá Serviços LTDA</h2><p>
-                                <h4>Zeladoria • junho 2021–maio 2023</p>
-                                <p>Manter a organização e o bom funcionamento de condomínios residenciais
-                                    ou quaisquer outros tipos de edifícios. Alémde cuidar da limpeza e
-                                    conservação do espaço, o zelador também é responsável por garantir a
-                                    segurança dos ocupantes e realizar pequenos reparos e manutenções.</h4>
-
-            </section>
-            <section class="education">
-                <h2>F O R M A Ç Ã O <br>A C A D Ê M I C A</h2>
-                <h4>Técnico em Logística.</p>
-                <p>ETEC Parque de Juventude • 2024– Cursando 1º semestre
-                </p>
-                <p>Coordenar processos de armazenamento, distribuição,transporte,
-                    processamento de itens e pedidos e sua devida embalagem</p>
-                    <h2>Sistema da Informação - Uni9</h2>
-                    <h4>Universidade Nove de Julho • 2019 - Trancado 2º semestre
-                    </p>
-                   
-                    <p>Sistema de informação é o conjunto de funções que têm como objetivo
-                        transformar dados (matéria-prima) em informações que o usuário
-                        possa utilizar</p>
-                        <p>Qualidade e Governança de Dados.</p>
-  <p>  Análise Estatística de Dados.</p>
-   <p> Machine Learning.</h4>
-
-                    <h2>Administração de condomínios - Faculdade Anhanguera</h2>
-                    <h4>2024- Cursando EAD
-                    </p>
-                        <p> Atividade cujo
-                            objetivo é o equilíbrio dos direitos e deveres de propriedade exclusiva individual e propriedade comum. 
-                            Ela tem aspectos jurídicos estabelecidos pela convenção, 
-                            regulamento interno e decisões de assembleias, além de seguir princípios da Constituição Federal, do Código Civil</p>
-                   
-                    <p>Administração de Condomínios</p>
-                         <p>Gestão Estrutural de Condomínios</p>
-                         <p>Aplicabilidade do Planejamento Financeiro</p>
-                        <p> Gestão de Crises</p>
-                        
-            </section>
-            <section class="skills">
-                <h2>C U R S O S <P>
-                    P R O F I S S I O N A L I Z A N T E </h2>
-                    <h4>Auxiliar de Logística</p>
-                    <p>Relações Humanas</p>
-                    <p>Departamento de Pessoal</p>
-                    <p>Auxiliar Contábil</p>
-                    <p>Scrum Fundation Profissional
-                        Certificate
-                        </p>
-                        <p>Certificação LGPD
-                <p>Certificação em Liderança, capacidade de aprender e resiliência - Instituição PURCS</h4>
-               
-            </section>
-            <section class="languages">
-                <h2>IDIOMAS</h2>
-                <div class="container">
-                    <div class="right">
-                        <canvas id="languageChart" width="100" height="100"></canvas>
-                    </div>
-                   
-            </section>
-            
-                <h2>H A B I L I D A D E S</h2>
-                
-              
-                    <P></P>
-                    <h4>Trabalho em equipe</p>
-                        <p>Liderança</p>
-                        <p>Pensamento criativo</p>
-                       <p> Resolução de problemas</p>
-                       <p> Programação</h4>
-                        
-               
-            
+        <div class="header">
+            <h1>CURRICULO</h1>
+         
            
+        </div>
 
-        </main>
+        <!-- Imagem adicional centralizada -->
+        <img src="Curriculo moderno para profissional de TI azul [Tamanho original].jpg" alt="Imagem adicional" class="additional-image">
+
+        <div class="sections-wrapper">
+            <div class="section contact">
+                <h2>Clique nos Contato</h2>
+                <p>Telefone: <a href="https://wa.me/11992745691" target="_blank">(11) 99274-5691</a></p>
+                <p>Email: <a href="mailto:jlsdesing2022@gmail.com">jlsdesing2022@gmail.com</a></p>
+            </div>
+
+        </div>
     </div>
-        <footer>
-            <p>&copy; 2024 Meu Currículo. Todos os direitos reservados.</p>
-        </footer>
-   
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <script src="script.js"></script><p></p><p></p>
-    
-        
-
-    </div>
-    <script src="script.js"></script>
-
-  
-
-       
-
 </body>
 </html>
